@@ -6,8 +6,6 @@
     padding: 0;
 }
 
-/* format */
-
 body
 {
     background-color: #f6f8f9;
@@ -47,7 +45,7 @@ header
     padding-bottom: 7px;
     padding-left: 50px;
     border-bottom: 2px solid;
-    border-color: #f6f8f9;
+    border-color: #eef6fa;
 }
 
 .btn
@@ -59,14 +57,14 @@ header
     display: inline-block;
 }
 
-.btn-on
+.btn-blu
 {
     background-color: #14aaf5;
     color: white;
     
 }
 
-.btn-off
+.btn-no
 {
     
     border-color: #c4cbd0;
@@ -81,15 +79,16 @@ header
     padding-bottom: 50px;
 }
 
-.list-bottom-margin
+.list-bottom-margine
 { margin-bottom: 40px;
   line-height: 20px;  
 }
 
-ul.list-space li
+.list-space
+li
 {
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     list-style-type: none;
 }
 
@@ -114,11 +113,11 @@ ul.list-space li
 
 .cross
 {
-    border-color: #ff0001;
-    color: #ff0001;
+    border-color:red;
+    color:red;
 }
 
-.string
+.inline-block
 {
     display: inline-block;
     margin-left: 5px;
@@ -140,19 +139,19 @@ ul.list-space li
 }
 
 .editorial
-{ background-color: #0aa9ed;}
+{ background-color: #1fafec;}
 
 .q1-goals
-{ background-color: #ab5de6;}
+{ background-color: #ab5de6d5;}
 
 .recruiting
-{ background-color: #2cc6ab;}
+{ background-color: #48ebcd;}
 
 .mobile
-{ background-color: #ff9b00;}
+{ background-color: #cc800d;}
 
 .website
-{ background-color: #ec4a9d;}
+{ background-color: #c22f7b;}
 
 .sales
-{ background-color: #a3d117;}
+{ background-color: #b8e631;}
