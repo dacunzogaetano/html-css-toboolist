@@ -1,28 +1,158 @@
-/* reset */
-* {
+/*reset */ 
+*
+{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-/* common */
-.whi
-h1 {background-color: white;
-    padding-left: 20px;
-    padding-bottom: 10px;
-}
-main {background-color: white;}
 
-body {background-color: rgb(211, 211, 211);
-      font-family: Arial, Helvetica, sans-serif;
+/* format */
+
+body
+{
+    background-color: #f6f8f9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*header*/
+
+h1{
+    font-size: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+header
+{
+    background-color: white;
+}
+
+/*main*/
+
+.container
+{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    margin-top: 35px;
     }
-.container {width: 70%;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: 30px;
+
+/*buttons*/
+
+.top
+{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 50px;
+    border-bottom: 2px solid;
+    border-color: #f6f8f9;
 }
-.btn {
-  text-decoration: none;
-  border: 1px solid gray;
-  padding: 3px;
-  border-radius: 3px;
+
+.btn
+{
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 4px 8px;
+    display: inline-block;
 }
+
+.btn-on
+{
+    background-color: #14aaf5;
+    color: white;
+    
+}
+
+.btn-off
+{
+    
+    border-color: #c4cbd0;
+    color: #c4cbd0;
+    
+}
+
+.task
+{
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+
+.list-bottom-margin
+{ margin-bottom: 40px;
+  line-height: 20px;  
+}
+
+ul.list-space li
+{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+.check-cross
+{
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 60%;
+    font-size: 10px;
+    text-align:center;
+    height: 15px;
+    width: 15px;
+}
+
+.check
+{
+    border-color: #2cc6ab;
+    padding-left: 2px;
+    padding-bottom: 4px;
+    color: #2cc6ab;
+}
+
+.cross
+{
+    border-color: #ff0001;
+    color: #ff0001;
+}
+
+.string
+{
+    display: inline-block;
+    margin-left: 5px;
+    
+}
+
+.tag
+{
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 13px;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-left: 5px;
+}
+
+.editorial
+{ background-color: #0aa9ed;}
+
+.q1-goals
+{ background-color: #ab5de6;}
+
+.recruiting
+{ background-color: #2cc6ab;}
+
+.mobile
+{ background-color: #ff9b00;}
+
+.website
+{ background-color: #ec4a9d;}
+
+.sales
+{ background-color: #a3d117;}
